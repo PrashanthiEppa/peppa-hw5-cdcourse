@@ -18,8 +18,8 @@ function App() {
   }, []);
 
   return (
-    <div className='assignment' style={{alignItems:"center",textAlign:"start"}}>
-      <h2>Current Weather</h2>
+    <div>
+      <h3>Current Weather</h3>
       {weatherData ? (
         <div>
           <p>City: {weatherData.city}</p>
